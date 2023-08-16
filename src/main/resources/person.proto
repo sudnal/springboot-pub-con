@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.snalubo.utilities;
+option java_outer_classname = "PersonProto";
+
+message Person {
+  string name = 1;
+  float height = 2;
+  bool isMale = 3;
+}
